@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52230" started-at="2016-08-05T10:24:15Z" finished-at="2016-08-05T10:25:07Z">
+  <suite name="Automation Tests" duration-ms="93366" started-at="2016-08-05T12:45:58Z" finished-at="2016-08-05T12:47:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52230" started-at="2016-08-05T10:24:15Z" finished-at="2016-08-05T10:25:07Z">
+    <test name="test1" duration-ms="93366" started-at="2016-08-05T12:45:58Z" finished-at="2016-08-05T12:47:32Z">
       <class name="javaautomationpackage.Login">
-        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:javaautomationpackage.Login@69c1adfa]" name="AOpeningBrowser" duration-ms="51128" started-at="2016-08-05T15:54:15Z" finished-at="2016-08-05T15:55:06Z">
+        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:javaautomationpackage.Login@5a311ade]" name="AOpeningBrowser" duration-ms="73369" started-at="2016-08-05T18:15:58Z" finished-at="2016-08-05T18:17:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AOpeningBrowser -->
-        <test-method status="PASS" signature="ZApplicationLogin()[pri:0, instance:javaautomationpackage.Login@69c1adfa]" name="ZApplicationLogin" duration-ms="910" started-at="2016-08-05T15:55:06Z" finished-at="2016-08-05T15:55:07Z">
+        <test-method status="PASS" signature="BApplicationLogin()[pri:0, instance:javaautomationpackage.Login@5a311ade]" name="BApplicationLogin" duration-ms="19921" started-at="2016-08-05T18:17:12Z" finished-at="2016-08-05T18:17:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ZApplicationLogin -->
+        </test-method> <!-- BApplicationLogin -->
       </class> <!-- javaautomationpackage.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- test1 -->
+  </suite> <!-- Automation Tests -->
 </testng-results>

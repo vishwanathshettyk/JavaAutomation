@@ -4,4 +4,3 @@
 # User-specific files
 
 .metadata/
-.metadata
