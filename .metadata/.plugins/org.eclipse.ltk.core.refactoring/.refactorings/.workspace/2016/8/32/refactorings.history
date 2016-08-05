@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;excelindia.com&apos; to &apos;JavaAutomation&apos;" description="Rename resource &apos;excelindia.com&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/excelindia.com" name="JavaAutomation" stamp="1470371029406" updateReferences="true"/>
+</session>

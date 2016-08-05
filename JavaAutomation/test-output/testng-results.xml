@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52230" started-at="2016-08-05T10:24:15Z" finished-at="2016-08-05T10:25:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52230" started-at="2016-08-05T10:24:15Z" finished-at="2016-08-05T10:25:07Z">
+      <class name="javaautomationpackage.Login">
+        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:javaautomationpackage.Login@69c1adfa]" name="AOpeningBrowser" duration-ms="51128" started-at="2016-08-05T15:54:15Z" finished-at="2016-08-05T15:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AOpeningBrowser -->
+        <test-method status="PASS" signature="ZApplicationLogin()[pri:0, instance:javaautomationpackage.Login@69c1adfa]" name="ZApplicationLogin" duration-ms="910" started-at="2016-08-05T15:55:06Z" finished-at="2016-08-05T15:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZApplicationLogin -->
+      </class> <!-- javaautomationpackage.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
