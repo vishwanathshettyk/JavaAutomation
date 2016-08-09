@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Tests" duration-ms="93366" started-at="2016-08-05T12:45:58Z" finished-at="2016-08-05T12:47:32Z">
+  <suite name="Automation Tests" duration-ms="59121" started-at="2016-08-09T11:41:55Z" finished-at="2016-08-09T11:42:54Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="93366" started-at="2016-08-05T12:45:58Z" finished-at="2016-08-05T12:47:32Z">
-      <class name="javaautomationpackage.Login">
-        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:javaautomationpackage.Login@5a311ade]" name="AOpeningBrowser" duration-ms="73369" started-at="2016-08-05T18:15:58Z" finished-at="2016-08-05T18:17:12Z">
+    <test name="test1" duration-ms="59121" started-at="2016-08-09T11:41:55Z" finished-at="2016-08-09T11:42:54Z">
+      <class name="pegasusAutomationscripts.Login">
+        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:pegasusAutomationscripts.Login@13afca88]" name="AOpeningBrowser" duration-ms="41046" started-at="2016-08-09T17:11:55Z" finished-at="2016-08-09T17:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AOpeningBrowser -->
-        <test-method status="PASS" signature="BApplicationLogin()[pri:0, instance:javaautomationpackage.Login@5a311ade]" name="BApplicationLogin" duration-ms="19921" started-at="2016-08-05T18:17:12Z" finished-at="2016-08-05T18:17:32Z">
+        <test-method status="PASS" signature="BApplicationLogin()[pri:0, instance:pegasusAutomationscripts.Login@13afca88]" name="BApplicationLogin" duration-ms="2639" started-at="2016-08-09T17:12:36Z" finished-at="2016-08-09T17:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BApplicationLogin -->
-      </class> <!-- javaautomationpackage.Login -->
+      </class> <!-- pegasusAutomationscripts.Login -->
+      <class name="pegasusAutomationscripts.CreateCourse">
+        <test-method status="PASS" signature="f()[pri:0, instance:pegasusAutomationscripts.CreateCourse@107ad736]" name="f" duration-ms="15399" started-at="2016-08-09T17:12:39Z" finished-at="2016-08-09T17:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- pegasusAutomationscripts.CreateCourse -->
     </test> <!-- test1 -->
   </suite> <!-- Automation Tests -->
 </testng-results>

@@ -5,4 +5,4 @@
  * @author vishwanathshettyk
  *
  */
-package javaautomationpackage;
+package pegasusAutomationCommonPages;

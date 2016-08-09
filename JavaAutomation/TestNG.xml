@@ -3,7 +3,8 @@
 <suite name="Automation Tests">
   <test name="test1">
     <classes>
-       <class name= "javaautomationpackage.Login"/>
+       <class name= "pegasusAutomationscripts.Login"/>
+       <class name= "pegasusAutomationscripts.CreateCourse"/>
     </classes>
   </test>
 </suite>

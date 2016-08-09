@@ -1,6 +1,9 @@
-package javaautomationpackage;
+package pegasusAutomationscripts;
 
 import org.testng.annotations.Test;
+
+import pegasusAutomationCommonPages.BasePage;
+import pegasusAutomationCommonPages.ConfigBrowsers;
 
 public class Login {
 	ConfigBrowsers InitiateDriver = new ConfigBrowsers();

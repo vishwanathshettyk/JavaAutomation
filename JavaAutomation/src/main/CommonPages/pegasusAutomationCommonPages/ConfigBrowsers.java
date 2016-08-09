@@ -1,4 +1,4 @@
-package javaautomationpackage;
+package pegasusAutomationCommonPages;
 
 import java.util.concurrent.TimeUnit;
 
