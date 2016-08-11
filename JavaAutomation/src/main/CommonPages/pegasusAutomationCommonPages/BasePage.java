@@ -59,6 +59,12 @@ public class BasePage extends ConfigBrowsers {
 		ConfigBrowsers.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		ConfigBrowsers.getDriver().switchTo().frame(ID);
 	}
+	public void SwitchToIFrameByXPath(String XpathValue)
+	{
+		ConfigBrowsers.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		ConfigBrowsers.getDriver().switchTo().frame(XpathValue);
+	}
+	
 	public void AssertEqualMyPage(String ExpectedTitle) throws Throwable
 	
 	{
@@ -106,6 +112,10 @@ public class BasePage extends ConfigBrowsers {
 	{
 		ConfigBrowsers.getDriver().findElement(expectedValue);
 		return true;
+	}
+	public void SwitchByIndex(int arg)
+	{
+		ConfigBrowsers.getDriver().switchTo().frame(arg);
 	}
 }
 

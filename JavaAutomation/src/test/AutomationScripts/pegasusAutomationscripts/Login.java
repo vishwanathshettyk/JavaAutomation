@@ -1,5 +1,6 @@
 package pegasusAutomationscripts;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pegasusAutomationCommonPages.BasePage;
@@ -16,12 +17,19 @@ public class Login {
 	InitiateDriver.LaunchBrowser();
   }
  //Login to Application
-  @Test
-  public void BApplicationLogin()
+  @Test	
+  @Parameters({"loginElement","username"})
+  public void BEnterUesrName(String loginElement, String username )
   {
-	  //Login application
-	LoginMyApp.InsertTextById("loginname", "demoinstructor");
-	LoginMyApp.InsertTextById("password", "Password1");
-	LoginMyApp.ClickOnLinkByClassName("lgn_btn");  
+	  //Enter User name
+	  	LoginMyApp.InsertTextById(loginElement,username);
+  }
+  @Test	
+  @Parameters({"pwdElement","password"})
+  public void CEnterPasswordandSignIN(String pwdElement, String password)
+	
+  {
+		 LoginMyApp.InsertTextById(pwdElement, password);
+		 LoginMyApp.ClickOnLinkByClassName("lgn_btn");  
   }
 }

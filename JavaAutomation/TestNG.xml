@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Automation Tests">
+<parameter name="loginElement" value="loginname"></parameter>
+<parameter name="username" value="demoinstructor"></parameter>
+<parameter name="pwdElement" value="password"></parameter>
+<parameter name="password" value="Password1"></parameter>
+<parameter name="ccElement" value="_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog"></parameter>
+<parameter name="iframeElement" value="Enroll in a Course"></parameter>
+<parameter name="XpathValue" value="//iframe[@src='/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx']"></parameter>
+<parameter name="tboxElement" value="txtProductTextBook"></parameter>
+<parameter name="ISBNValue" value="txtProductTextBook"></parameter>
   <test name="test1">
     <classes>
        <class name= "pegasusAutomationscripts.Login"/>
        <class name= "pegasusAutomationscripts.CreateCourse"/>
     </classes>
   </test>
-</suite>
+ </suite>
