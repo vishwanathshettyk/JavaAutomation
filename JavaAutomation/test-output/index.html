@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Automation_Tests">
-              <span class="suite-name border-failed">Automation Tests</span>
+              <span class="suite-name border-passed">Automation Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,26 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Automation_Tests" class="hide-methods failed suite-Automation_Tests"> (hide)</a> <!-- hide-methods failed suite-Automation_Tests -->
-                      <a href="#" panel-name="suite-Automation_Tests" class="show-methods failed suite-Automation_Tests"> (show)</a> <!-- show-methods failed suite-Automation_Tests -->
-                    </span>
-                    <div class="method-list-content failed suite-Automation_Tests">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.CreateCourse" hash-for-method="BSelectCreateCourseWindow(//iframe[@src=&#039;/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx&#039;])">BSelectCreateCourseWindow(//iframe[@src='/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx'])</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.CreateCourse" hash-for-method="CClickOnSearchByRadioButton(txtProductTextBook, txtProductTextBook)">CClickOnSearchByRadioButton(txtProductTextBook, txtProductTextBook)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Automation_Tests -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -120,22 +101,17 @@
                     <div class="method-list-content passed suite-Automation_Tests">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.CreateCourse" hash-for-method="ACreateWLCourse(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog)">ACreateWLCourse(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.Login" hash-for-method="AOpeningBrowser">AOpeningBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.Login" hash-for-method="BEnterUesrName(loginname, demoinstructor)">BEnterUesrName(loginname, demoinstructor)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.Login" hash-for-method="BApplicationLogin">BApplicationLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.Login" hash-for-method="CEnterPasswordandSignIN(password, Password1)">CEnterPasswordandSignIN(password, Password1)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Tests" title="pegasusAutomationscripts.CreateCourse" hash-for-method="f">f</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_Tests -->
@@ -150,158 +126,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation_Tests" class="panel Automation_Tests">
-          <div class="suite-Automation_Tests-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">pegasusAutomationscripts.CreateCourse</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BSelectCreateCourseWindow(//iframe[@src=&#039;/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx&#039;])">
-                  </a> <!-- BSelectCreateCourseWindow(//iframe[@src='/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx']) -->
-                  <span class="method-name">BSelectCreateCourseWindow</span>
-                  <span class="parameters">(//iframe[@src='/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx'])</span>
-                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchFrameException: no such frame
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:792)
-	at pegasusAutomationCommonPages.BasePage.SwitchToIFrameByXPath(BasePage.java:65)
-	at pegasusAutomationscripts.CreateCourse.BSelectCreateCourseWindow(CreateCourse.java:17)
-... Removed 28 stack frames<br/> org.openqa.selenium.NoSuchFrameException: no such frame
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:792)
-	at pegasusAutomationCommonPages.BasePage.SwitchToIFrameByXPath(BasePage.java:65)
-	at pegasusAutomationscripts.CreateCourse.BSelectCreateCourseWindow(CreateCourse.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br>java.lang.reflect.Constructor.newInstance(Unknown Source)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)<br>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:792)<br>pegasusAutomationCommonPages.BasePage.SwitchToIFrameByXPath(BasePage.java:65)<br>pegasusAutomationscripts.CreateCourse.BSelectCreateCourseWindow(CreateCourse.java:17)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)<br>
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="CClickOnSearchByRadioButton(txtProductTextBook, txtProductTextBook)">
-                  </a> <!-- CClickOnSearchByRadioButton(txtProductTextBook, txtProductTextBook) -->
-                  <span class="method-name">CClickOnSearchByRadioButton</span>
-                  <span class="parameters">(txtProductTextBook, txtProductTextBook)</span>
-                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtProductTextBook&quot;}
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)
-	at org.openqa.selenium.By$ById.findElement(By.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
-	at pegasusAutomationCommonPages.BasePage.InsertTextById(BasePage.java:15)
-	at pegasusAutomationscripts.CreateCourse.CClickOnSearchByRadioButton(CreateCourse.java:26)
-... Removed 28 stack frames<br/> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtProductTextBook&quot;}
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)
-	at org.openqa.selenium.By$ById.findElement(By.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
-	at pegasusAutomationCommonPages.BasePage.InsertTextById(BasePage.java:15)
-	at pegasusAutomationscripts.CreateCourse.CClickOnSearchByRadioButton(CreateCourse.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br>java.lang.reflect.Constructor.newInstance(Unknown Source)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)<br>org.openqa.selenium.By$ById.findElement(By.java:216)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)<br>pegasusAutomationCommonPages.BasePage.InsertTextById(BasePage.java:15)<br>pegasusAutomationscripts.CreateCourse.CClickOnSearchByRadioButton(CreateCourse.java:26)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)<br>
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Tests-class-failed -->
           <div class="suite-Automation_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -310,10 +134,9 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ACreateWLCourse(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog)">
-                  </a> <!-- ACreateWLCourse(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog) -->
-                  <span class="method-name">ACreateWLCourse</span>
-                  <span class="parameters">(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog)</span>
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -333,18 +156,9 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="BEnterUesrName(loginname, demoinstructor)">
-                  </a> <!-- BEnterUesrName(loginname, demoinstructor) -->
-                  <span class="method-name">BEnterUesrName</span>
-                  <span class="parameters">(loginname, demoinstructor)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="CEnterPasswordandSignIN(password, Password1)">
-                  </a> <!-- CEnterPasswordandSignIN(password, Password1) -->
-                  <span class="method-name">CEnterPasswordandSignIN</span>
-                  <span class="parameters">(password, Password1)</span>
+                  <a name="BApplicationLogin">
+                  </a> <!-- BApplicationLogin -->
+                  <span class="method-name">BApplicationLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -359,15 +173,6 @@ Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browser
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Automation Tests&quot;&gt;
-  &lt;parameter name=&quot;tboxElement&quot; value=&quot;txtProductTextBook&quot;/&gt;
-  &lt;parameter name=&quot;iframeElement&quot; value=&quot;Enroll in a Course&quot;/&gt;
-  &lt;parameter name=&quot;ccElement&quot; value=&quot;_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog&quot;/&gt;
-  &lt;parameter name=&quot;pwdElement&quot; value=&quot;password&quot;/&gt;
-  &lt;parameter name=&quot;username&quot; value=&quot;demoinstructor&quot;/&gt;
-  &lt;parameter name=&quot;ISBNValue&quot; value=&quot;txtProductTextBook&quot;/&gt;
-  &lt;parameter name=&quot;XpathValue&quot; value=&quot;//iframe[@src=&amp;#039;/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx&amp;#039;]&quot;/&gt;
-  &lt;parameter name=&quot;loginElement&quot; value=&quot;loginname&quot;/&gt;
-  &lt;parameter name=&quot;password&quot; value=&quot;Password1&quot;/&gt;
   &lt;test name=&quot;test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pegasusAutomationscripts.Login&quot;/&gt;
@@ -411,36 +216,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AOpeningBrowser')
 data.setCell(0, 2, 'pegasusAutomationscripts.Login')
-data.setCell(0, 3, 17209);
+data.setCell(0, 3, 41046);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ACreateWLCourse')
+data.setCell(1, 1, 'f')
 data.setCell(1, 2, 'pegasusAutomationscripts.CreateCourse')
-data.setCell(1, 3, 14632);
+data.setCell(1, 3, 15399);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CClickOnSearchByRadioButton')
-data.setCell(2, 2, 'pegasusAutomationscripts.CreateCourse')
-data.setCell(2, 3, 10092);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'BEnterUesrName')
-data.setCell(3, 2, 'pegasusAutomationscripts.Login')
-data.setCell(3, 3, 2189);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CEnterPasswordandSignIN')
-data.setCell(4, 2, 'pegasusAutomationscripts.Login')
-data.setCell(4, 3, 1840);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'BSelectCreateCourseWindow')
-data.setCell(5, 2, 'pegasusAutomationscripts.CreateCourse')
-data.setCell(5, 3, 46);
+data.setCell(2, 1, 'BApplicationLogin')
+data.setCell(2, 2, 'pegasusAutomationscripts.Login')
+data.setCell(2, 3, 2639);
 window.suiteTableData['Automation_Tests']= { tableData: data, tableDiv: 'times-div-Automation_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Automation_Tests">
               </div> <!-- times-div-Automation_Tests -->
             </div> <!-- times-div -->
@@ -472,31 +265,15 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">BEnterUesrName(loginname, demoinstructor)</span>
-                <span class="method-start">17222 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">CEnterPasswordandSignIN(password, Password1)</span>
-                <span class="method-start">19414 ms</span>
+                <span class="method-name">BApplicationLogin</span>
+                <span class="method-start">41054 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">pegasusAutomationscripts.CreateCourse</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ACreateWLCourse(_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog)</span>
-                <span class="method-start">21260 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">BSelectCreateCourseWindow(//iframe[@src='/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx'])</span>
-                <span class="method-start">35898 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">CClickOnSearchByRadioButton(txtProductTextBook, txtProductTextBook)</span>
-                <span class="method-start">35958 ms</span>
+                <span class="method-name">f</span>
+                <span class="method-start">43699 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

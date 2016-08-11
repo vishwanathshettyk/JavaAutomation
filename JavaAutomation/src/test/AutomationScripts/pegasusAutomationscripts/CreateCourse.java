@@ -1,28 +1,17 @@
 package pegasusAutomationscripts;
-import org.testng.annotations.Parameters;
+
 import org.testng.annotations.Test;
 import pegasusAutomationCommonPages.BasePage;
+import pegasusAutomationCommonPages.ConfigBrowsers;
 
 public class CreateCourse {
+	ConfigBrowsers InitiateDriver = new ConfigBrowsers();
 	BasePage CreateInstructorCourse = new BasePage();
   @Test
-  @Parameters("ccElement")
-  public void ACreateWLCourse(String ccElement) {
-		CreateInstructorCourse.ClickOnLinkById(ccElement);
-  }
-  @Test
-  @Parameters("XpathValue")
-  public void BSelectCreateCourseWindow(String XpathValue) 
-  {
-		CreateInstructorCourse.SwitchToIFrameByXPath(XpathValue);
-		CreateInstructorCourse.SwithtoDefaultContent();
+  public void CreateWLCourse() {
+		CreateInstructorCourse.ClickOnLinkById("_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog");
+		CreateInstructorCourse.SwithcToFrame("Enroll in a Course");
+		CreateInstructorCourse.SelectNewWindow();
 		CreateInstructorCourse.WaitforElement();
-  }
-  @Test
-  @Parameters({"tboxElement","ISBNValue"})
-  public void CClickOnSearchByRadioButton(String tboxElement , String ISBNValue)
-  {
-	  
-	  CreateInstructorCourse.InsertTextById(tboxElement, ISBNValue);
   }
 }

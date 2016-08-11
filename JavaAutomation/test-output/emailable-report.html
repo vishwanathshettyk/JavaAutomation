@@ -31,103 +31,19 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">test1</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">46.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">test1</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">59.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">test1 &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">pegasusAutomationscripts.CreateCourse</td><td><a href="#m1"><b>BSelectCreateCourseWindow</b>  </a></td><td class="numi">1</td><td>1470916643192</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m2"><b>CClickOnSearchByRadioButton</b>  </a></td><td class="numi">1</td><td>1470916643252</td><td class="numi">10092</td></tr>
 <tr><th colspan="4">test1 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">pegasusAutomationscripts.CreateCourse</td><td><a href="#m3"><b>ACreateWLCourse</b>  </a></td><td class="numi">1</td><td>1470916628554</td><td class="numi">14632</td></tr>
-<tr class="passedeven"><td rowspan="3">pegasusAutomationscripts.Login</td><td><a href="#m4"><b>AOpeningBrowser</b>  </a></td><td class="numi">1</td><td>1470916607294</td><td class="numi">17209</td></tr><tr class="passedeven"><td><a href="#m5"><b>BEnterUesrName</b>  </a></td><td class="numi">1</td><td>1470916624516</td><td class="numi">2189</td></tr><tr class="passedeven"><td><a href="#m6"><b>CEnterPasswordandSignIN</b>  </a></td><td class="numi">1</td><td>1470916626708</td><td class="numi">1840</td></tr>
+<tr class="passedodd"><td rowspan="2">pegasusAutomationscripts.Login</td><td><a href="#m1"><b>AOpeningBrowser</b>  </a></td><td class="numi">1</td><td>1470742915833</td><td class="numi">41046</td></tr><tr class="passedodd"><td><a href="#m2"><b>BApplicationLogin</b>  </a></td><td class="numi">1</td><td>1470742956887</td><td class="numi">2639</td></tr>
+<tr class="passedeven"><td rowspan="1">pegasusAutomationscripts.CreateCourse</td><td><a href="#m3"><b>f</b>  </a></td><td class="numi">1</td><td>1470742959532</td><td class="numi">15399</td></tr>
 </table>
 <h1>test1</h1>
-<h2 id="m1">pegasusAutomationscripts.CreateCourse:BSelectCreateCourseWindow</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>//iframe[@src=&apos;/Pegasus/Modules/CourseCatalog/frmCourseCatalogMain.aspx&apos;]</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="1">
-<p>no such frame
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
-<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:792)
-<br/>at pegasusAutomationCommonPages.BasePage.SwitchToIFrameByXPath(BasePage.java:65)
-<br/>at pegasusAutomationscripts.CreateCourse.BSelectCreateCourseWindow(CreateCourse.java:17)
-<br/>25 lines not shown
-</td></tr>
-</table>
+<h2 id="m1">pegasusAutomationscripts.Login:AOpeningBrowser</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">pegasusAutomationscripts.CreateCourse:CClickOnSearchByRadioButton</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
-<tr class="param stripe"><td>txtProductTextBook</td>
-<td>txtProductTextBook</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="2">
-<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtProductTextBook&quot;}
-  (Session info: chrome=52.0.2743.116)
-  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 15:53:30&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_03&apos;
-Session ID: ab11286800ebffb46e19bcd0f7a50276
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\VISHWA~1\AppData\Local\Temp\scoped_dir10988_10633}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=52.0.2743.116, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
-<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)
-<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
-<br/>at pegasusAutomationCommonPages.BasePage.InsertTextById(BasePage.java:15)
-<br/>at pegasusAutomationscripts.CreateCourse.CClickOnSearchByRadioButton(CreateCourse.java:26)
-<br/>25 lines not shown
-</td></tr>
-</table>
+<h2 id="m2">pegasusAutomationscripts.CreateCourse:f</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">pegasusAutomationscripts.CreateCourse:ACreateWLCourse</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>_ctl5:_ctl2:_ctl0:_ctl0:_ctl0:btnSearchCatalog</td>
-</tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">pegasusAutomationscripts.Login:BEnterUesrName</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
-<tr class="param stripe"><td>loginname</td>
-<td>demoinstructor</td>
-</tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">pegasusAutomationscripts.Login:AOpeningBrowser</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">pegasusAutomationscripts.Login:CEnterPasswordandSignIN</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
-<tr class="param stripe"><td>password</td>
-<td>Password1</td>
-</tr>
-</table>
+<h2 id="m3">pegasusAutomationscripts.Login:BApplicationLogin</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
